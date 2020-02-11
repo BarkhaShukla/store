@@ -7,6 +7,8 @@ import Details from './components/Details';
 import Cart from './components/Cart';
 import ProductList from './components/ProductList';
 import Default from './components/Default';
+import About from './components/About';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -14,9 +16,11 @@ class App extends Component {
       <React.Fragment>
         <NavBar />
         <Switch>
-          <Route exact path="/" component={ProductList} />
+          <Route exact path="/" component={About} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
+          <Route path="/ProductList" component={ProductList} />
+          <Route path="/Contact" component={Contact} />
           <Route component={Default} />
         </Switch>
       </React.Fragment>

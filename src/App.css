@@ -1,26 +1,24 @@
 :root{
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
+  --mainBeige: #f1eae3 ;
+  --darkBeige: #af804d;
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
-  --mainYellow: #ffa400;
-  --mainRed: #800000;
 }
 body{
-  font-family: "Oswald", sans-serif!important;
+  font-family: 'Roboto', sans-serif!important;
   background: var(--mainWhite)!important;
   color: var(--mainDark)!important;
 }
 .text-title{
-  font-family: "Permanent Marker", cursive;
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
+  font-family: 'Courgette', cursive;
+  letter-spacing: 0.2rem;
+  text-transform: none;
 }
 .text-blue{
-  color: var(--mainBlue);
+  color: var(--darkBeige);
 }
 .text-bright{
-  color: var(--lightBlue);
+  color: var(--darkBeige);
 }
 .navbar-brand{
   height: 100px;
